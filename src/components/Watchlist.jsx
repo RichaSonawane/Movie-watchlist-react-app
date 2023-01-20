@@ -10,7 +10,7 @@ const Watchlist = (props) => {
 
   return (
     <div className="watchlist">
-      <h1>My Watchlist</h1>
+      <h1 >My Watchlist</h1>
       <div className={styles.moviecontainer}>{movieDisplay}</div>
     </div>
   );

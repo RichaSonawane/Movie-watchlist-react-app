@@ -10,8 +10,7 @@ header {
   gap: 15px;
   align-items: center;
   padding: 0px 80px;
-  background:navy;
-  
+  background: navy;
 }
 
 button {
@@ -39,43 +38,7 @@ button {
   gap: 10px;
 }
 
-.movie-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
-
-.movie-card {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-}
-
-
 main {
   display: flex;
   flex-direction: row;
-  
-}
-  .watchlist {
-  width: 500px;
-  height: calc(100vh - 70px);
-  overflow-y: scroll;
-  position: fixed;
-  top: 70px;
-  right: 0;
-  text-align: center;
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  .movie-card {
-    left: calc(50% - 20rem);
-    width: 40rem;
-  }
 }
