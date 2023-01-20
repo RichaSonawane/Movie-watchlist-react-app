@@ -1,0 +1,9 @@
+.moviecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:black;
+}
